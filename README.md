@@ -1,4 +1,4 @@
-# 📧 Envio Automático de E-mails em Python
+#  Envio Automático de E-mails em Python
 
 Script desenvolvido em **Python** para envio automatizado de e-mails utilizando SMTP, com suporte a:
 
@@ -13,24 +13,24 @@ Script desenvolvido em **Python** para envio automatizado de e-mails utilizando 
 
 ---
 
-## 📋 Funcionalidades
+##  Funcionalidades
 
-- ✅ Envio em massa via SMTP
-- ✅ Suporte a Gmail, Outlook e outros servidores SMTP
-- ✅ Leitura automática de planilhas Excel
-- ✅ Suporte a arquivos CSV e TXT
-- ✅ Validação de e-mails
-- ✅ Remoção de e-mails duplicados
-- ✅ Mensagens em HTML
-- ✅ Personalização da mensagem utilizando `{nome}`
-- ✅ Anexos opcionais
-- ✅ Registro dos envios em `envios.log`
-- ✅ Barra de progresso no terminal
-- ✅ Tratamento individual de erros
+-  Envio em massa via SMTP
+-  Suporte a Gmail, Outlook e outros servidores SMTP
+-  Leitura automática de planilhas Excel
+-  Suporte a arquivos CSV e TXT
+-  Validação de e-mails
+-  Remoção de e-mails duplicados
+-  Mensagens em HTML
+-  Personalização da mensagem utilizando `{nome}`
+-  Anexos opcionais
+-  Registro dos envios em `envios.log`
+-  Barra de progresso no terminal
+-  Tratamento individual de erros
 
 ---
 
-## 🛠 Tecnologias
+##  Tecnologias
 
 - Python 3.10+
 - pandas
@@ -42,7 +42,7 @@ Script desenvolvido em **Python** para envio automatizado de e-mails utilizando 
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 Clone o repositório:
 
@@ -111,7 +111,7 @@ Depois abrirá uma janela para selecionar o arquivo contendo os contatos.
 
 ---
 
-## 📁 Formatos suportados
+##  Formatos suportados
 
 ### Excel (.xlsx)
 
@@ -141,7 +141,7 @@ maria@email.com
 
 ---
 
-## ✉ Personalização da mensagem
+##  Personalização da mensagem
 
 Você pode utilizar:
 
@@ -167,7 +167,7 @@ Seu cadastro foi realizado com sucesso!
 
 ---
 
-## 📎 Anexos
+##  Anexos
 
 Informe o caminho completo do arquivo:
 
@@ -179,7 +179,7 @@ Ou deixe vazio caso não queira anexar nenhum arquivo.
 
 ---
 
-## 📄 Arquivo de Log
+##  Arquivo de Log
 
 Após cada envio bem-sucedido é criado (ou atualizado) o arquivo:
 
@@ -197,7 +197,7 @@ pedro@email.com
 
 ---
 
-## 🔐 Configuração do Gmail
+##  Configuração do Gmail
 
 Caso utilize Gmail:
 
@@ -210,11 +210,11 @@ Caso utilize Gmail:
 | Servidor SMTP | smtp.gmail.com |
 | Porta | 587 |
 
-⚠ **Não utilize a senha normal da sua conta Google.**
+ **Não utilize a senha normal da sua conta Google.**
 
 ---
 
-## 📂 Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 envio-email-python/
@@ -229,7 +229,7 @@ envio-email-python/
 
 ---
 
-## 📌 Dependências
+##  Dependências
 
 ```
 pandas
@@ -244,7 +244,7 @@ pip install pandas openpyxl
 
 ---
 
-## 🚀 Melhorias futuras
+##  Melhorias futuras
 
 - Interface gráfica completa (Tkinter ou CustomTkinter)
 - Envio com imagens incorporadas
@@ -258,7 +258,7 @@ pip install pandas openpyxl
 
 ---
 
-## ⚠ Aviso
+##  Aviso
 
 Este projeto destina-se ao envio de e-mails autorizados e automações internas.
 
@@ -268,7 +268,7 @@ Sempre obtenha o consentimento dos destinatários antes de realizar envios em ma
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 Desenvolvido por **Ruan Ribeiro**.
 
